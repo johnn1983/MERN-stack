@@ -1,0 +1,62 @@
+.home-container {
+  background-image: linear-gradient(90deg, #2E3567, #242A58);
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login-form form{
+  width: 30%;
+}
+
+.logo {
+  margin-top: 150px !important;
+}
+
+input {
+  height: 45px !important;
+}
+
+.title {
+  color: #fff;
+}
+
+svg {
+  float: right;
+  margin-top: -28px;
+  margin-right: 8px;
+}
+
+.forget-password label {
+  float: right;
+  color: #5B9ADB;
+
+}
+
+.login-btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #60A3E6;
+  color: #fff;
+}
+
+.register {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register label {
+  color: #fff;
+}
+
+.register-link {
+  color: #5B9ADB;
+}

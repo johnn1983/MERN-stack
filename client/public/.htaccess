@@ -1,0 +1,4 @@
+AuthType basic
+AuthName 'fairbase'
+AuthUserFile "C:/Users/rolan/fairline-reactapp/Fairline-Defense/client/build/.htpasswd"
+Require valid-user

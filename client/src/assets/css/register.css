@@ -1,0 +1,64 @@
+.register-container {
+  background-image: linear-gradient(90deg, #2E3567, #242A58);
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 100px !important;
+}
+.register-form {
+  display: flex;
+  justify-content: center;
+}
+.register-form form{
+  width: 80%;
+}
+
+
+input {
+  height: 45px !important;
+}
+
+.register-title,
+.special-item {
+  color: #fff;
+}
+
+svg {
+  float: right;
+  margin-top: -28px;
+  margin-right: 8px;
+}
+
+.form-content {
+  margin-top: 15px;
+}
+
+.phone-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+#pcountry {
+  width: 20%
+}
+
+#pnum {
+  width: 78%;
+}
+
+.register-btn {
+  width: 50%;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #60A3E6;
+  color: #fff;
+}
+
+.register-btn-area {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  margin-top: 20px;
+}

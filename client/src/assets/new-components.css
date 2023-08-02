@@ -1,0 +1,285 @@
+#predict {
+  position: relative;
+}
+
+#predict .predict-text {
+  text-align: center;
+}
+
+.predict-text {
+  position: absolute;
+  display: table;
+  width: 100%;
+  padding: 0;
+  /* background: url(../assets/img/joinnow.png) center center no-repeat; */
+  bottom: 40%;
+}
+
+.predict-text h1 {
+  font-family: "Eina 03", sans-serif;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: inherit;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: -450px;
+  font-style: normal;
+  line-height: 45px;
+  width: 526px;
+  height: 96px;
+}
+
+img#redvector-top {
+  margin-left: -1235px;
+  margin-top: -412px;
+  z-index: 1;
+}
+
+img#redvector-mid {
+  margin-left: -1258px;
+  margin-top: -179px;
+  z-index: 1;
+}
+
+img#redvector-bot {
+  width: 226px;
+  height: 147px;
+  margin-left: -1726px;
+  margin-top: 5px;
+  z-index: 1;
+}
+
+#new-header {
+  position: relative;
+}
+
+#new-header .introduction-text {
+  text-align: center;
+}
+
+.new-intro {
+  position: absolute;
+  display: table;
+  width: 100%;
+  padding: 0;
+  /* background: url('../assets/img/joinnow.png') center center no-repeat; */
+  bottom: 40%;
+}
+
+.new-intro h1 {
+  font-family: "Eina 03", sans-serif;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: inherit;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.getstartedbtn-custom {
+  font-family: "Eina 03", sans-serif;
+  text-transform: inherit;
+  color: #fff;
+  background-color: #FF1E3ECC;
+  padding: 14px 80px;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-top: -40px;
+  margin-left: -75px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  border: 0;
+}
+
+.btn-custom1 {
+  width:200px;
+  font-family: "Eina 03", sans-serif;
+  text-transform: inherit;
+  color: #fff;
+  background-color: #FF1E3E;
+  padding: 14px 60px;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  border: 0;
+}
+
+.btn-custom-coverage {
+  font-family: "Eina 03", sans-serif;
+  text-transform: inherit;
+  color: #fff;
+  background-color: #1EA0FF;
+  padding: 14px 80px;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  border: 0;
+}
+/* we protect futures.. */
+#future {
+  background: linear-gradient(to right, #2A4C78 0%, #0B1C3A 100%);
+  padding: 50px;
+  color: #fff;
+}
+
+.future-text-title {
+  text-transform: inherit;
+  margin: 0 0 20px;
+  padding-top: 185px;
+  padding-right: 100px;
+  font-family: "Eina 03", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  font-style: normal;
+  color: #fff;
+  line-height: 58px;
+}
+
+.future-description, p {
+  font-size: 25px;
+  font-family: "Eina 03", sans-serif;
+  line-height: 34px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.future-text {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  height: 350px;
+}
+
+.img-responsive-futures {
+  width: 699px;
+  max-width: 100%;
+  height: 555px;
+  border-radius: 34px;
+}
+
+#cover, #cover>.row {
+  margin-top: 30px;
+}
+
+.cover-title {
+  text-transform: inherit;
+  margin: 0 0 20px;
+  font-weight: 800;
+  font-size: 36px;
+  color: rgb(23, 10, 108);
+}
+
+.cover-detail {
+  color: #000;
+}
+
+.cover-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#cover img {
+  width: 80%;
+  height: 114px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 13px;
+}
+
+#cover img:hover {
+  box-shadow: 4px 2px 9px 1px #00ABE0;
+}
+
+.cover-imgs {
+  margin-top: 30px;
+}
+
+.income-title {
+  text-transform: inherit;
+  font-weight: 800;
+  font-family: "Eina 03", sans-serif;
+  font-style: normal;
+  font-size: 44px;
+  color: #000;
+  line-height: 48px;
+  text-align: center;
+}
+
+.income-sub-title {
+  font-size: 35px;
+  color: #00ABE0;
+  font-style: normal;
+  font-family: "Eina 03", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  line-height: 48px;
+}
+
+#income {
+  margin-top: 80px;
+}
+/* adjust card height and width */
+.card {
+  background-color: #fff;
+  padding:25px;
+  box-shadow: 2px 3px 11px 0px #000;
+  border-radius: 20px;
+  height: 400px;
+  width: 87%;
+  
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border: 2px solid #00ABE0;
+}
+
+.card-header {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.card-title {
+  line-height: 0;
+  color: #000;
+}
+
+
+.card-body {
+  padding-bottom: 70px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+}
+
+.card-body p {
+  font-size: 24px;
+  color: #132A4A;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card-area {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  padding-bottom: 20px;
+}

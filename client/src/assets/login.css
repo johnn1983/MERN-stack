@@ -1,0 +1,114 @@
+#FD-logo {
+    margin-bottom: 30px;
+}
+
+.home-container {
+    background: linear-gradient(90deg, #21488A, #0B182D);
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .login-form form{
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .logo {
+    margin-top: 150px !important;
+  }
+  
+  input {
+    height: 45px !important;
+  }
+  
+  .title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  svg {
+    float: right;
+    margin-top: -28px;
+    margin-right: 8px;
+  }
+  
+  .forget-password label {
+    float: right;
+    color: #00ABE1;
+  
+  }
+  
+  .join-btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #00ABE1;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+  
+  .register {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .register label {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: "Eina 03", sans-serif;
+  }
+  
+  .register-link {
+    font-family: "Eina 03", sans-serif;
+    color: #00ABE1;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 600;
+  }
+
+  .hamburger-react {
+    position: fixed !important;
+    top:0px;
+    right:20px;
+    display: none;
+    color: #fff;
+  }
+  
+  .arrow-left-svg {
+    position: fixed;
+    top: 50px;
+    left: 40px;
+    display: none;
+    color: #fff;
+  }
+
+  .join-1 {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .hamburger-react,
+    .arrow-left-svg,
+    .join-btn-1 {
+      display: block !important;
+    }
+
+    .join-btn-2 {
+      display: none !important;
+    }
+  }

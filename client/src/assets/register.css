@@ -1,0 +1,118 @@
+.register-container {
+    background: linear-gradient(90deg, #21488A, #0B182D);
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 100px !important;
+  }
+
+  .register-form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .register-form form{
+    width: 50%;
+
+  }
+  
+  .register-title {
+    font-family: "Eina 03", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  
+  input {
+    height: 45px !important;
+  }
+  
+  .register-title,
+  .special-item {
+    color: #fff;
+    font-size: 18px; 
+  }
+
+  .brand h1 {
+    color: #fff;
+    font-size: 30px;
+    font-family: "Eina 03", sans-serif;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+
+  .register-title,
+  .special-item, p {
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  svg {
+    float: right;
+    margin-top: -28px;
+    margin-right: 8px;
+  }
+  
+  .form-content {
+    margin-top: 15px;
+  }
+  
+  .phone-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #pcountry {
+    width: 20%
+  }
+  
+  #pnum {
+    width: 78%;
+  }
+  
+  .register-btn {
+    min-width: 25%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #00ABE1;
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10;
+    text-align: center;
+  }
+  
+  .register-btn-area {
+    display: flex;
+    justify-content: center;
+  }
+
+  .service {
+    margin-top: 20px;
+  }
+
+  .accountQ {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .login-link {
+    color: #00ABE1;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .register-quiz div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .quiz-label {
+    font-size: 16px;
+    color: #fff;
+    margin-right: 20px;
+  }
+  

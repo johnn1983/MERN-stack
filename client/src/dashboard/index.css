@@ -1,0 +1,222 @@
+.logo-area {
+  position: absolute;
+  right: 120;
+  top: -45;
+}
+
+.nav-tabs {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.nav-item button {
+  border: 0 !important;
+  font-size: 16px;
+  background-color: transparent !important;
+}
+
+.body-content {
+  background: linear-gradient(90deg, #21488A, #0B182D);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #1EA0FF;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+  color: #fff
+}
+
+.banner {
+  min-height: 250px;
+  background: linear-gradient(90deg, #21488A, #0B182D);
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.membership-btn, 
+.add-btn {
+  margin-top: 10px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 150px;
+}
+
+.emergency-btn,
+.refer-btn {
+  margin-top: 10px;
+  background-color: #3cd9cd;
+  width: 150px;
+}
+
+#FD-logo {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 55px;
+  left: 50%;
+  top: 0;
+  width: 182px;
+  height: 50px;
+  margin-top: 45px;
+}
+
+.detail-info {
+  width: 30%;
+}
+
+.detail-info h1 {
+  color: white;
+}
+
+.title,
+.emergency-btn,
+.refer-btn,
+.logo-area, 
+.logo-area  h4,
+.membership-area h1,
+#benefitcarousel h1,
+#feedcarousel h1  {
+  color: #fff;
+}
+
+.carousel-inner {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  height: 600px;
+
+}
+
+.refair-section
+{
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.membership-area {
+  color: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.personal-info,
+.billing-area,
+.invoice-area,
+.email-preference,
+.member-preference,
+.account-preference {
+  background-color: #fff;
+  margin-top: -13px;
+  padding: 30px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: "Eina 03", sans-serif;
+}
+
+.personal-info, .invoice-area
+ {
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal-info p,
+.billing-area p,
+.email-preference p,
+.member-preference p,
+.account-preference p {
+  color: #000;
+  font-family: "Eina 03", sans-serif;
+}
+
+.account-preference {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.edit-btn,
+.card-btn
+{
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.member-btn-area {
+  margin-top: 20px;
+}
+
+.member-btn
+{
+  background: linear-gradient(90deg, #21488A, #0B182D);
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.billing-hr{
+  width: 100%;
+  height: 1px;
+  background: #3cd9cd;
+}
+
+.invoice-area th, td {
+  color: #000;
+}
+
+.password-eye {
+  color:#53c4d4;
+}
+
+.btn-area {
+  margin-top: 20px;
+}
+
+.cancel-btn, .save-edit-btn {
+  width: 120px;
+}
+
+.save-edit-btn {
+  margin-left: 20px;
+}
+
+.checkbox-area {
+  display: flex;
+  align-items: center;
+}
+
+.check-label {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 70vh !important;
+}
+
+.carousel-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gallery-arrow {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-area{
+    display: none;
+  }
+}

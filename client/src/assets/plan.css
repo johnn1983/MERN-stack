@@ -1,0 +1,60 @@
+body {
+	overflow-x: hidden;
+}
+
+.plan {
+	margin-top: 100px !important;
+	color: white;
+}
+
+.plan-card {
+	background: #21488A!important;
+}
+
+.select-card {
+	display: flex;
+  	justify-content: center;
+}
+
+.card-price {
+	color: #00ABE0	!important;
+	font-family: "Eina 03", sans-serif;
+	font-style: normal;
+	font-size: 50px;
+}
+.card-subtitle {
+	font-family: "Eina 03", sans-serif;
+	padding-top: 20px;	
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 22px;
+	font-style: normal;
+}
+
+.card-text {
+	font-family: "Eina 03", sans-serif;
+	font-size: 8px;
+	color: white !important;
+}
+
+.card-border{
+	border: 1px solid white;
+}
+
+.bill-text {
+	text-align: center !important;
+    font-size: 16px !important;
+    padding-top: 80px;
+	
+}
+
+.save-text {
+	text-align: center !important;
+	margin-top: -140px;
+	font-size: 16px !important;	
+}
+
+.mt-5 {
+	margin-top: 40px;
+}

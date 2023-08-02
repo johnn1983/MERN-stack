@@ -1,0 +1,51 @@
+.congrate {
+	margin-top: 150px !important;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 30px;
+	font-family: "Eina 03", sans-serif;
+}
+
+.sucessfully {
+	color: white;
+}
+
+.production {
+	color: white;
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 30px;
+	font-family: "Eina 03", sans-serif;
+}
+
+.production-1 {
+	color: white;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 22px;
+	font-family: "Eina 03", sans-serif;
+}
+
+.congrate-btn-area {
+	margin-top: 30px;
+	display: flex;
+  	justify-content: center;
+}
+
+.congratulation-btn {
+	width: 50%;
+	height: 50px;
+	border-radius: 25px;
+	background-color: red;
+	color: #fff !important;
+	padding-top: 10px;
+}
+
+.arrow {
+	display: flex;
+  	justify-content: center;
+}
